@@ -1,7 +1,7 @@
 {
 	"name": "react-star-wars",
 	"private": true,
-	"homepage": "https://andriidiuk.github.io/star-wars",
+	"homepage": "https://andriidiuk.github.io/react-star-wars",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
