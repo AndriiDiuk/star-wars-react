@@ -1,0 +1,29 @@
+.wrapper {
+	min-width: 250px;
+	padding: var(--spacing-medium) 0;
+	color: var(--color-white);
+}
+.list__container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.list__item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+}
+.item__episode {
+	padding: var(--spacing-ultra-small);
+	border-radius: var(--border-radius-small);
+	background-color: var(--color-red);
+}
+.item__colon {
+	width: 20px;
+	font-weight: var(--font-bold);
+	text-align: center;
+}
+.item__title {
+	text-shadow: var(--text-shadow-yellow);
+}
