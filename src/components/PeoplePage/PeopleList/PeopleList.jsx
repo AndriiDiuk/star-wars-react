@@ -32,4 +32,3 @@ PeopleList.propTypes = {
 }
 
 export default PeopleList;
-
