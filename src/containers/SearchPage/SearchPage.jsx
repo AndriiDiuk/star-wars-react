@@ -26,6 +26,7 @@ const SearchPage = ({ setErrorApi }) => {
 
 				return { id, name, img }
 			});
+
 			setPeople(peopleList);
 			setErrorApi(false)
 		} else {

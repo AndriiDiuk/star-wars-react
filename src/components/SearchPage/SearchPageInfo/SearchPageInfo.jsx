@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import styles from './SearchPageInfo.module.css';
 
-const SearchPageInfo = (people) => {
+const SearchPageInfo = ({ people }) => {
 
 	return (
 		<>
@@ -15,7 +15,7 @@ const SearchPageInfo = (people) => {
 								return (
 									<li className={styles.list__item} key={id}>
 										<Link to={`/people/${id}`}>
-											<img className={styles.person__photo} data-src={img} alt={name} />
+											<img className={styles.person__photo} src={img} alt={name} />
 											<p className={styles.person__name} >{name}</p>
 										</Link>
 									</li>
